@@ -1,5 +1,5 @@
-bin/
-gen/
-libs/
-obj/
+/bin
+/gen
+/libs
+/obj
 buildme.bat
