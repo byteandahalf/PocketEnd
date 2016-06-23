@@ -15,4 +15,5 @@ struct BlockSource
 	bool isEmptyBlock(const BlockPos&);
 	BlockID getBlockID(const BlockPos&);
 	bool setBlock(const BlockPos&, BlockID, int);
+	Level& getLevel() const;
 };

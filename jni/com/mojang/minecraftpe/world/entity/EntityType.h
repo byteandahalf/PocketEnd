@@ -2,5 +2,6 @@
 
 enum class EntityType : int
 {
-	NONE
+	NONE,
+	DRAGON = 50
 };

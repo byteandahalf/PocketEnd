@@ -11,7 +11,7 @@ ALLFILES = $(call findfiles, $(LOCAL_PATH))
 FILE_LIST := $(filter %.cpp, $(ALLFILES))
 LOCAL_SRC_FILES := $(FILE_LIST:$(LOCAL_PATH)/%=%)
 
-LOCAL_LDLIBS    := -L$(LOCAL_PATH) -llog -ldl -lminecraftpe -lmcpelauncher_tinysubstrate
+LOCAL_LDLIBS    := -L$(LOCAL_PATH) -llog -ldl -lminecraftpe -lmcpelauncher_tinysubstrate -lGLESv1_CM
 
 # ignore undefined symbols.
 # workaround for method not found errors.

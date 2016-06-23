@@ -5,6 +5,7 @@ struct Color
 	float r, g, b, a;
 
 	static Color BLACK;
+	static Color WHITE;
 
 	Color(float r, float g, float b, float a)
 	{

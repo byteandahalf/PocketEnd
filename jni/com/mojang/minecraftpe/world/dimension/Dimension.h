@@ -21,6 +21,8 @@ struct Dimension
 
 	Dimension(Level&, DimensionId);
 
+	Color getSkyColor(const Entity&, float);
+
 	std::unique_ptr<ChunkSource> _createGenerator(GeneratorType);
 	void setCeiling(bool);
 
